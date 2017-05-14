@@ -1,4 +1,4 @@
-RubySchool, Lesson 24
+Pizza Shop
 ====================
 
-Repository for Lesson 24
+Repository for PizzaShope
