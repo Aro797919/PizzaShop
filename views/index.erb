@@ -5,9 +5,10 @@
   <div class="col-md-3" src = >
   <div><img src ="<%= p.path_to_image %>"  width = "200" height = "200"/></div> 
   
-  <div><%= p.description %></div>
-  <div><%= p.title %></div>
-
+  <div style ="color :red" ><%= p.description%></div>
+  <div style ="color :green"><%= p.title.upcase  %></div>
+<div ><%= p.size %> cm</div>
+<div ><%= p.price %>rub</div>
 </div>
 <% end %>
 </div><br><br>
