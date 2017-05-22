@@ -9,12 +9,14 @@
   <div style ="color :green"><%= p.title.upcase  %></div>
 <div ><%= p.size %> cm</div>
 <div ><%= p.price %>rub</div>
-<div> <button class = "btn btn -sm btn-success" onclick="alert('Hello from function')" >Add to cart</button></div>
+ <div>
+        <button class="btn btn-sm btn-success" onclick ='add_to_cart(id)' >Add to cart</button>
+      </div>
 </div>
 <% end %>
 </div><br><br>
 
-<button class = "btn btn-primary" onclick="something()" >Click me!</button><br><br>
+<button class = "btn btn-primary" onclick ='something()' >Click me!</button><br><br>
 
 
 
